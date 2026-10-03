@@ -1,31 +1,30 @@
 # Java OOP Library and Employee System
 This repository contains Java exercises demonstrating object-oriented programming concepts using Library and Employee examples.
 
-## Concepts Covered
-- Classes and objects
-- Object-Oriented Programming (OOP)
-- Encapsulation
-- Inheritance
-- Class relationships
-- Data organization
-- Problem solving
+[Back to portfolio](https://github.com/lourdhadweh4-del) · [Coursework index](https://github.com/lourdhadweh4-del/lourdhadweh4-del/blob/main/COURSEWORK.md)
 
-## Project Description
-The project models real-world entities such as employees and library items using Java classes.
+## Repository guide
 
-Examples of modeled entities may include:
-- Employee information (name, ID, role)
-- Library items (books, authors, records)
-- Relationships between objects
-- Data management using object-oriented design
+These are learning exercises. Each source folder is compiled separately because some exercises reuse class names.
 
-## Tools Used
-- Java
-- IntelliJ IDEA
+| Source folder | Java files | Programs with a `main` method |
+| --- | ---: | --- |
+| [src](src) | 3 | [Book_Main](src/Book_Main.java) |
 
-## Purpose
-To practice applying object-oriented programming principles to real-world scenarios such as managing employees and library systems.
+## Compile and run
 
-Small projects like employee management or library systems are commonly used to understand OOP concepts such as class structure, inheritance, and relationships between objects. 
+Install a JDK with `javac` and `java` available. The source folders below were compiled successfully with **JDK 24.0.2**. Run commands from the repository root.
 
-This project helps strengthen understanding of how software systems can be structured using reusable and organized code components.
+### src
+
+```bash
+mkdir -p build/src
+javac -d build/src src/*.java
+java -cp build/src Book_Main
+```
+
+Choose another entry point from the table to run a different exercise. Some programs prompt for console input; others demonstrate object construction without printing output.
+
+## Scope
+
+These repositories document programming practice and coursework. Successful compilation is a basic check; it does not mean every exercise has complete input validation or production-level behavior.
